@@ -57,6 +57,10 @@ export default {
       border: 1px solid rgba(204, 204, 204, 0.5);
       padding: 25px;
 
+      @media (max-width: 767px) {
+        width: auto;
+      }
+
       label {
         display: none;
       }
