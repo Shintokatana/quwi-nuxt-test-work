@@ -17,7 +17,8 @@ export default {
   .logo-wrapper {
     display: block;
     .logo-image {
-      width: auto;
+      width: 30px;
+      height: 30px;
     }
   }
 

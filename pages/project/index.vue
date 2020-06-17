@@ -1,11 +1,14 @@
 <template>
-    $END$
+  <div />
 </template>
 
 <script>
-    export default {
-        name: "index"
-    }
+export default {
+  name: 'Index',
+  mounted () {
+    this.$router.push('/')
+  }
+}
 </script>
 
 <style scoped>
